@@ -1,0 +1,141 @@
+body{font-family: 'Roboto',sans-serif;
+  background-color: var(--background-color-main);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--color-main);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+:root {--background-color-main: #FFFFFF;
+       --background-color-2: #2F303A;
+       --color-main: #757575;
+       --color-2: #FFFFFF;
+       --color-h: #212121;} 
+/* -----------------utility styles-------- */
+.link{text-decoration: none;}
+.list{list-style: none;}
+.title{
+    font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color:var(--color-h); 
+}
+.item-title{
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--color-h);
+}
+.item-text{
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--color-main);
+}
+
+
+
+/*------------ HEADER -----------------*/
+   
+.logo{font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-h);
+    font-family: "Raleway",sans-serif;
+    }
+.logo-span{color: #2196F3;}
+
+.header-nav-link{color: var(--color-h);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+   
+}
+.header-contacts-link{
+   color: var(--color-main);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+ 
+.header-contacts .link:focus,
+.header-contacts .link:hover,
+.header-nav .link:hover,
+.header-nav .link:focus{color: #2196F3;}
+
+/*------------ HERO -----------------*/
+
+ .hero{background-color: var(--background-color-2);
+}
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color:var(--color-2);
+}
+.hero-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color:var(--color-2);
+  background-color: #2196F3;
+  cursor: pointer;
+}
+/*------------ ADVANTAGES -----------------*/
+.invisible-title{display: none;}
+.adv-item-title{
+  text-transform: uppercase;
+ }
+/*------------ WORKS -----------------*/
+ 
+ 
+/*------------ TEAM -----------------*/
+
+
+/*------------ FOOTER -----------------*/
+ .footer{background-color: var(--background-color-2);
+}
+.footer-logo{color: var(--color-2);
+}
+.address-link{
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--color-2)
+}
+.footer-contacts{
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* -------------------PORTFOLIO----------- */
+.portfolio-button{
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--color-h);
+  cursor: pointer;
+  
+}
+.portfolio-button:hover,.portfolio-button:focus{
+  background-color:#2196F3;
+  color:var(--color-2) ;
+  cursor: pointer;
+}
+
