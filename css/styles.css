@@ -92,10 +92,14 @@ img {
 
 
 /*------------ HEADER -----------------*/
+.header{
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header-container{
   display: flex ;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
+
 }
 
 .logo{
@@ -164,13 +168,17 @@ img {
 }
 
 /*------------ HERO -----------------*/
+.hero{
+  background-color: var(--background-color-2);
+}
+
 .hero-container{
   min-height: 600px;
   text-align: center;
-  width: 1600px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--background-color-2);
+ 
 }
 
 
@@ -184,6 +192,7 @@ img {
   text-transform: uppercase;
   color:var(--color-2);
   padding: 200px 252px 0px 252px;
+  
 }
 
 .hero-button{
@@ -200,6 +209,7 @@ img {
   min-height: 50px;
   padding: 10px 32px 10px 32px;
   border-radius: 4px;
+  border: none;
 
 }
 /*------------ ADVANTAGES -----------------*/
@@ -275,7 +285,7 @@ img {
 }
 
 /*------------ FOOTER -----------------*/
-.footer-container{
+.footer{
   background-color: var(--background-color-2);
 }
 
@@ -328,13 +338,14 @@ img {
   font-family: "Roboto" sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.67;
   letter-spacing: 0.03em;
   color: var(--color-h);
   cursor: pointer;
   border-radius: 4px;
-  border-color: transparent;
+  border: none;
   background-color: #F5F4FA;
+  padding: 6px 22px;
 }
 
 .portfolio-button:hover,.portfolio-button:focus{
@@ -353,7 +364,8 @@ img {
 .examp-item{
  flex-basis: calc(100% /3 - 30px);
  margin: 15px;
-border-bottom: 1px solid #EEEEEE;
+ border-bottom: 1px solid #EEEEEE;
+ 
  
 }
 
@@ -362,16 +374,16 @@ border-bottom: 1px solid #EEEEEE;
   padding-right: 24px;
   padding-left: 24px;
   line-height: 2;
-  font: size 18px;
+  font-size:  18px;
 }
 
 .examp-item-text{
   margin-top: 4px;
   padding-right: 24px;
   padding-left: 24px;
-  padding-bottom: 20px;
-  line-height: 1.87;
-  font: size 16px;
+  padding-bottom: 19px;
+  line-height: 1.86;
+  font-size:  16px;
 }
 
 
